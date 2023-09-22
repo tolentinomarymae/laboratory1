@@ -105,17 +105,17 @@
             <div class="col-md-5">
                 <h2>Add Product</h2>
                 <form action="/save" method="post">
-                    <label for="productName">Product Name:</label><br>
+                    <label for="ProductName">Product Name:</label><br>
                     <input type="hidden" name="id" value="<?= isset($pro['id']) ? $pro['id'] : '' ?>">
-                    <input type="text" name="productName" placeholder="Product Name"
-                        value="<?= isset($pro['productName']) ? $pro['productName'] : '' ?>"><br>
+                    <input type="text" name="ProductName" placeholder="Product Name"
+                        value="<?= isset($pro['ProductName']) ? $pro['ProductName'] : '' ?>"><br>
 
-                    <label for="productDescription">Product Description:</label><br>
-                    <input type="text" name="productDescription" placeholder="Product Description"
-                        value="<?= isset($pro['productDescription']) ? $pro['productDescription'] : '' ?>"><br>
+                    <label for="ProductDescription">Product Description:</label><br>
+                    <input type="text" name="ProductDescription" placeholder="Product Description"
+                        value="<?= isset($pro['ProductDescription']) ? $pro['ProductDescription'] : '' ?>"><br>
 
-                    <label for="productCategory">Product Category:</label><br>
-                    <select name="productCategory">
+                    <label for="ProductCategory">Product Category:</label><br>
+                    <select name="ProductCategory">
                         <option value="">Select a category</option> 
                         <?php if (!is_null($categories) && is_array($categories)) : ?>
                             <?php foreach ($categories as $category): ?>
@@ -126,13 +126,13 @@
                         <?php endif; ?>
                     </select><br>
 
-                    <label for="productQuantity">Product Quantity:</label><br>
-                    <input type="number" name="productQuantity" placeholder="Product Quantity"
-                        value="<?= isset($pro['productQuantity']) ? $pro['productQuantity'] : '' ?>"><br>
+                    <label for="ProductQuantity">Product Quantity:</label><br>
+                    <input type="number" name="ProductQuantity" placeholder="Product Quantity"
+                        value="<?= isset($pro['ProductQuantity']) ? $pro['ProductQuantity'] : '' ?>"><br>
 
-                    <label for="productPrice">Product Price:</label><br>
-                    <input type="text" name="productPrice" placeholder="Product Price"
-                        value="<?= isset($pro['productPrice']) ? $pro['productPrice'] : '' ?>"><br>
+                    <label for="ProductPrice">Product Price:</label><br>
+                    <input type="text" name="ProductPrice" placeholder="Product Price"
+                        value="<?= isset($pro['ProductPrice']) ? $pro['ProductPrice'] : '' ?>"><br>
 
                     <input type="submit" value="Save">
                 </form>

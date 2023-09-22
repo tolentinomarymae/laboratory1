@@ -9,10 +9,12 @@ use App\Models\CategoryModel;
 class MainController extends BaseController
 {
     private $product;
+    private $tablecategory;
 
     public function __construct()
     {
         $this->product = new MainModel();
+        $this->tablecategory = new CategoryModel();
     }
 
     public function delete($id)
@@ -23,13 +25,12 @@ class MainController extends BaseController
 
     public function edit($id)
     {
-        $productModel = new MainModel(); // Create an instance of the ProductModel
-        $categoryModel = new CategoryModel(); // Create an instance of the CategoryModel
+        $productModel = new MainModel();
+        $categoryModel = new CategoryModel(); 
 
         $data = [
             'product' => $productModel->findAll(),
             'pro' => $productModel->find($id),
-            // Assuming you want to edit a product
             'categories' => $categoryModel->distinct('ProductCategory')->findColumn('ProductCategory'),
         ];
 
@@ -45,18 +46,28 @@ class MainController extends BaseController
     {
         $id = $this->request->getVar('id');
         $data = [
-            'productName' => $this->request->getVar('productName'),
-            'productDescription' => $this->request->getVar('productDescription'),
-            'productCategory' => $this->request->getVar('productCategory'),
-            'productQuantity' => $this->request->getVar('productQuantity'),
-            'productPrice' => $this->request->getVar('productPrice'),
+            'ProductName' => $this->request->getVar('ProductName'),
+            'ProductDescription' => $this->request->getVar('ProductDescription'),
+            'ProductCategory' => $this->request->getVar('ProductCategory'),
+            'ProductQuantity' => $this->request->getVar('ProductQuantity'),
+            'ProductPrice' => $this->request->getVar('ProductPrice'),
         ];
 
         if ($id != null) {
             $this->product->set($data)->where('id', $id)->update();
         } else {
-            $this->product->insert($data);
+            $this->product->save($data);
         }
+        return redirect()->to('/product');
+        
+        // Save data to the TableCategoryModel as well
+        $sectionData = 
+        [
+            'ProductCategory' => $this->request->getVar('ProductCategory'),
+        ];
+
+        $this->tablecategory->save($sectionData);
+
         return redirect()->to('/product');
     }
 
