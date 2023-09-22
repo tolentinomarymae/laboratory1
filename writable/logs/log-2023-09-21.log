@@ -1,0 +1,119 @@
+CRITICAL - 2023-09-21 12:51:27 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 12:55:54 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 12:55:56 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 12:57:28 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:00:41 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:11:24 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:11:25 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:14:29 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:14:30 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:14:30 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:16:18 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:16:18 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:16:19 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:16:19 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:16:19 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:16:19 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
+CRITICAL - 2023-09-21 13:17:30 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->laboratory_one()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory1\\public\\index.php')
